@@ -24,4 +24,4 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 
 -- some keymaps for trigger plugins
 keymap.set("n", "<leader>mm", ":Mason<cr>", { desc = "Open Mason dialog" })
-keymap.set("n", "<C-l>", ":Lazy<cr>", { desc = "Open Lazy plugin manager UI" })
+keymap.set("n", "<leader>pp", ":Lazy<cr>", { desc = "Open Lazy plugin manager UI" })
